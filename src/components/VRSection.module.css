@@ -48,16 +48,16 @@
 
 @media (max-width: 768px) {
   .vrImg {
-    width: 34rem;
+    width: 40rem;
     height: 25rem;
     top: 15%;
-    left: 8%;
+    left: 4%;
   }
 
   .vrText {
-    top: 65%;
+    top: 72%;
     left: 12%;
-    width: 30rem;
+    width: 35rem;
     height: auto;
     justify-content: flex-start;
     padding: 4rem 0;

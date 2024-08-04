@@ -1,7 +1,7 @@
 .footer {
   background-color: var(--color-black);
   width: 100%;
-  height: 20rem;
+  min-height: 20rem;
   display: flex;
   padding: 4.8rem 12%;
 }
@@ -70,4 +70,24 @@
 .navList li a:hover::after,
 .socialMediaList li a:hover::after {
   transform: translateX(-50%) scale(1);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 6rem;
+    justify-content: center;
+  }
+  .companyLinks {
+    align-items: center;
+    gap: 2rem;
+  }
+  .navList {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .sociaLinks {
+    align-items: center;
+    gap: 2rem;
+  }
 }
