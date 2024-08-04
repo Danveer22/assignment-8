@@ -1,6 +1,6 @@
 .vrSection {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .vrImg {
@@ -48,13 +48,14 @@
 
 @media (max-width: 768px) {
   .vrImg {
-    width: 32rem;
-    height: 40rem;
-    left: 4%;
+    width: 34rem;
+    height: 25rem;
+    top: 15%;
+    left: 8%;
   }
 
   .vrText {
-    top: 100%;
+    top: 65%;
     left: 12%;
     width: 30rem;
     height: auto;
@@ -64,7 +65,8 @@
 
   .vrText div {
     width: 100%;
-    background-color: 90%;
+
+    text-align: center;
   }
 
   .vrText h2 {

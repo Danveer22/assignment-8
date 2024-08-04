@@ -1,5 +1,5 @@
 .gallary {
-  width: 100%;
+  width: 90%;
   margin-bottom: 6rem;
 }
 
@@ -58,4 +58,16 @@
 }
 
 @media (max-width: 768px) {
+  .gallaryContainer {
+    grid-template-columns: 1fr;
+  }
+  .gallaryContainer figure figcaption {
+    font-size: 2.4rem;
+    left: 25%;
+    width: 14rem;
+  }
+
+  .gallary {
+    margin-bottom: 0rem;
+  }
 }
