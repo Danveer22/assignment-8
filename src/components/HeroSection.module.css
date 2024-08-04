@@ -35,16 +35,17 @@
   .hero {
     background-image: url("/public/images/mobile/image-hero.jpg");
     background-size: cover;
-    height: 150vh;
+    height: 130vh;
   }
   .heroTagBox {
-    width: 48rem;
+    width: 34rem;
+
     top: 35%;
     left: 6%;
     padding: 4rem 3rem;
     height: auto;
   }
   .heroTagBox h1 {
-    font-size: 5.8rem;
+    font-size: 4rem;
   }
 }

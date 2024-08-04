@@ -31,8 +31,8 @@ function Header() {
       >
         {isOpen ? (
           <svg
-            width="50"
-            height="50"
+            width="35"
+            height="35"
             viewBox="0 0 28 18"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -44,8 +44,8 @@ function Header() {
           </svg>
         ) : (
           <svg
-            width="50"
-            height="50"
+            width="35"
+            height="35"
             viewBox="0 0 28 18"
             xmlns="http://www.w3.org/2000/svg"
           >
