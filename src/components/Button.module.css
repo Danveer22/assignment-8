@@ -1,0 +1,21 @@
+.button {
+  text-transform: uppercase;
+  background-color: var(--color-white);
+  font-family: var(--font-secondary);
+  font-size: 1.8rem;
+  width: 18rem;
+  letter-spacing: 0.2rem;
+  word-spacing: 0.4rem;
+  padding: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border: 2px solid var(--color-dark-grey);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}

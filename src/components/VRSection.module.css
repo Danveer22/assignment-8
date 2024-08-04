@@ -1,0 +1,76 @@
+.vrSection {
+  position: relative;
+  height: 100vh;
+}
+
+.vrImg {
+  width: 88rem;
+  height: 60rem;
+  position: absolute;
+  top: 23.6%;
+  left: 11.6%;
+}
+
+.vrText {
+  width: 80rem;
+  height: 40rem;
+  background-color: var(--color-white);
+  position: absolute;
+  z-index: 999;
+  top: 49%;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding: 3rem;
+}
+
+.vrText div {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.vrText h2 {
+  font-size: 5.4rem;
+  font-family: var(--font-secondary);
+  font-weight: 300;
+}
+
+.vrText p {
+  font-size: 1.6rem;
+  color: var(--color-grey);
+  line-height: 1.6;
+  letter-spacing: 0.1rem;
+}
+
+@media (max-width: 768px) {
+  .vrImg {
+    width: 50rem;
+    height: 40rem;
+    left: 4%;
+  }
+
+  .vrText {
+    top: 79%;
+    right: 1.6%;
+    width: 50rem;
+    height: auto;
+    justify-content: flex-start;
+    padding: 4rem 0;
+  }
+
+  .vrText div {
+    width: 90%;
+  }
+
+  .vrText h2 {
+    font-size: 5rem;
+  }
+
+  .vrText p {
+    font-size: 2rem;
+  }
+}

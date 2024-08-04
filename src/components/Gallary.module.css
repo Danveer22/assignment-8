@@ -1,0 +1,61 @@
+.gallary {
+  width: 100%;
+  margin-bottom: 6rem;
+}
+
+.gallaryContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+}
+
+.gallaryContainer figure {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.gallaryContainer figure img {
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.gallaryContainer figure::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  transition: background-color 0.3s ease;
+}
+
+.gallaryContainer figure:hover::before {
+  background-color: rgba(172, 172, 172, 0.7);
+}
+
+.gallaryContainer figure:hover img {
+  transform: scale(1.1);
+}
+
+.gallaryContainer figure:hover figcaption {
+  color: var(--color-black);
+}
+
+.gallaryContainer figure figcaption {
+  position: absolute;
+  font-size: 3.8rem;
+  text-transform: uppercase;
+  color: var(--color-white);
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  bottom: 2rem;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 999;
+}
+
+@media (max-width: 768px) {
+}
