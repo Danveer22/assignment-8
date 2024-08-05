@@ -1,4 +1,5 @@
 import styles from "./Gallary.module.css";
+import Button from "./Button";
 
 function Gallary() {
   return (
@@ -68,6 +69,7 @@ function Gallary() {
           />
           <figcaption>Make it Fisheye</figcaption>
         </figure>
+        <Button>See all</Button>
       </div>
     </section>
   );

@@ -3,12 +3,13 @@ import HeroSection from "./components/HeroSection";
 import VRSection from "./components/VRSection";
 import CreationSection from "./components/CreationSection";
 import Footer from "./components/Footer";
+import { useState } from "react";
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <Header />
       <main>
-        <HeroSection />
+        <HeroSection isOpen={isOpen} setIsOpen={setIsOpen} />
         <VRSection />
         <CreationSection />
       </main>

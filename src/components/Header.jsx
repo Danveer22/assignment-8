@@ -1,9 +1,8 @@
-import { useState } from "react";
+import { useEffect } from "react";
 import styles from "./Header.module.css";
-function Header() {
-  const [isOpen, setIsOpen] = useState(false);
+function Header({ isOpen, setIsOpen }) {
   return (
-    <header className={styles.header}>
+    <header className={`${styles.header} ${isOpen ? styles.navOpen : ""}`}>
       <img src="/images/logo.svg" className={styles.logo} />
 
       <nav>
@@ -25,6 +24,7 @@ function Header() {
           </li>
         </ul>
       </nav>
+
       <span
         className={styles.toggleIcon}
         onClick={() => setIsOpen((isOpen) => !isOpen)}
