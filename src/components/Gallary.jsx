@@ -6,67 +6,67 @@ function Gallary() {
     <section className={styles.gallary}>
       <div className={styles.gallaryContainer}>
         <figure>
-          <img
-            src="/images/desktop/image-deep-earth.jpg"
-            srcSet="/images/mobile/image-deep-earth.jpg 768w, /images/desktop/image-deep-earth.jpg 1200w"
-            alt="Deep Earth"
-          />
+          <picture>
+            <source media="(min-width: 1200px)" srcSet="/images/desktop/image-deep-earth.jpg" />
+            <source media="(max-width: 767px)" srcSet="/images/mobile/image-deep-earth.jpg" />
+            <img src="/images/desktop/image-deep-earth.jpg" alt="Deep Earth" />
+          </picture>
           <figcaption>Deep Earth</figcaption>
         </figure>
         <figure>
-          <img
-            src="/images/desktop/image-night-arcade.jpg"
-            srcSet="/images/mobile/image-night-arcade.jpg 768w, /images/desktop/image-night-arcade.jpg 1200w"
-            alt="Night Arcade"
-          />
+          <picture>
+            <source media="(min-width: 1200px)" srcSet="/images/desktop/image-night-arcade.jpg" />
+            <source media="(max-width: 767px)" srcSet="/images/mobile/image-night-arcade.jpg" />
+            <img src="/images/desktop/image-night-arcade.jpg" alt="Night Arcade" />
+          </picture>
           <figcaption>Night Arcade</figcaption>
         </figure>
         <figure>
-          <img
-            src="/images/desktop/image-soccer-team.jpg"
-            srcSet="/images/mobile/image-soccer-team.jpg 768w, /images/desktop/image-soccer-team.jpg 1200w"
-            alt="Soccer Team VR"
-          />
+          <picture>
+            <source media="(min-width: 1200px)" srcSet="/images/desktop/image-soccer-team.jpg" />
+            <source media="(max-width: 767px)" srcSet="/images/mobile/image-soccer-team.jpg" />
+            <img src="/images/desktop/image-soccer-team.jpg" alt="Soccer Team VR" />
+          </picture>
           <figcaption>Soccer Team VR</figcaption>
         </figure>
         <figure>
-          <img
-            src="/images/desktop/image-grid.jpg"
-            srcSet="/images/mobile/image-grid.jpg 768w, /images/desktop/image-grid.jpg 1200w"
-            alt="The Grid"
-          />
+          <picture>
+            <source media="(min-width: 1200px)" srcSet="/images/desktop/image-grid.jpg" />
+            <source media="(max-width: 767px)" srcSet="/images/mobile/image-grid.jpg" />
+            <img src="/images/desktop/image-grid.jpg" alt="The Grid" />
+          </picture>
           <figcaption>The Grid</figcaption>
         </figure>
         <figure>
-          <img
-            src="/images/desktop/image-from-above.jpg"
-            srcSet="/images/mobile/image-from-above.jpg 768w, /images/desktop/image-from-above.jpg 1200w"
-            alt="From Up Above VR"
-          />
+          <picture>
+            <source media="(min-width: 1200px)" srcSet="/images/desktop/image-from-above.jpg" />
+            <source media="(max-width: 767px)" srcSet="/images/mobile/image-from-above.jpg" />
+            <img src="/images/desktop/image-from-above.jpg" alt="From Up Above VR" />
+          </picture>
           <figcaption>From Up Above VR</figcaption>
         </figure>
         <figure>
-          <img
-            src="/images/desktop/image-pocket-borealis.jpg"
-            srcSet="/images/mobile/image-pocket-borealis.jpg 768w, /images/desktop/image-pocket-borealis.jpg 1200w"
-            alt="Pocket Borealis"
-          />
+          <picture>
+            <source media="(min-width: 1200px)" srcSet="/images/desktop/image-pocket-borealis.jpg" />
+            <source media="(max-width: 767px)" srcSet="/images/mobile/image-pocket-borealis.jpg" />
+            <img src="/images/desktop/image-pocket-borealis.jpg" alt="Pocket Borealis" />
+          </picture>
           <figcaption>Pocket Borealis</figcaption>
         </figure>
         <figure>
-          <img
-            src="/images/desktop/image-curiosity.jpg"
-            srcSet="/images/mobile/image-curiosity.jpg 768w, /images/desktop/image-curiosity.jpg 1200w"
-            alt="The Curiosity"
-          />
+          <picture>
+            <source media="(min-width: 1200px)" srcSet="/images/desktop/image-curiosity.jpg" />
+            <source media="(max-width: 767px)" srcSet="/images/mobile/image-curiosity.jpg" />
+            <img src="/images/desktop/image-curiosity.jpg" alt="The Curiosity" />
+          </picture>
           <figcaption>The Curiosity</figcaption>
         </figure>
         <figure>
-          <img
-            src="/images/desktop/image-fisheye.jpg"
-            srcSet="/images/mobile/image-fisheye.jpg 768w, /images/desktop/image-fisheye.jpg 1200w"
-            alt="Make it Fisheye"
-          />
+          <picture>
+            <source media="(min-width: 1200px)" srcSet="/images/desktop/image-fisheye.jpg" />
+            <source media="(max-width: 767px)" srcSet="/images/mobile/image-fisheye.jpg" />
+            <img src="/images/desktop/image-fisheye.jpg" alt="Make it Fisheye" />
+          </picture>
           <figcaption>Make it Fisheye</figcaption>
         </figure>
         <Button>See all</Button>
