@@ -17,7 +17,7 @@
   background-color: var(--color-white);
   position: absolute;
   z-index: 999;
-  top: 49%;
+  top: 54%;
   right: 0;
   display: flex;
   flex-direction: column;
