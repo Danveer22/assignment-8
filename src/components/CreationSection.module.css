@@ -10,6 +10,7 @@
 .creationHeading {
   display: flex;
   justify-content: space-between;
+  width: 92%;
   align-items: center;
 }
 
